@@ -1,7 +1,7 @@
 // Chiedi un numero di 4 cifre all’utente e calcola la somma di 
 // tutte le cifre che compongono il numero.
 
-// Chiedo un numero di 4 cifre all’utente
+// Chiedo un numero di 4 cifre all’utente.
 const userNumber = prompt("Inserisci un numero di 4 cifre:");
 
 // Calcolo la somma di tutte le cifre che compongono il numero.
@@ -11,7 +11,7 @@ for (let i = 0; i < userNumber.length; i++) {
     sum += number;
 }
 
-// Visualizzo il risultato
+// Visualizzo il risultato.
 alert(`La somma delle cifre di ${userNumber} è ${sum}`);
 
 
